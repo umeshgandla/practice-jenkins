@@ -20,7 +20,7 @@ pipeline {
                     sh 'python3.12 -m venv venv'
                     // Activate the virtual environment and install dependencies using bash
                     sh '''
-                        bash -c "source venv/bin/activate && pip install -r ./requirements.txt"
+                        bash -c "source venv/bin/activate && pip install -r ./requirments.txt"
                     '''
                 }
             }
