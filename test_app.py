@@ -9,5 +9,5 @@ def client():
 def test_hello_world(client):
     """Test the hello world route."""
     response = client.get('/')
-    assert response.data == b'Hello, mamaa'
+    assert response.data == b'Hello, maama'
     assert response.status_code == 200
