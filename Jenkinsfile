@@ -31,7 +31,7 @@ pipeline {
                 script {
                     // Activate the virtual environment and run tests using bash
                     sh '''
-                        bash -c "source venv/bin/activate && pytest app.py"
+                        bash -c "source venv/bin/activate && pytest test_app.py"
                     '''
                 }
             }
